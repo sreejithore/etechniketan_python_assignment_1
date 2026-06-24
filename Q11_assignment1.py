@@ -1,0 +1,12 @@
+subject=["Python", "SQL", "Excel", "Tableau"]
+print(subject)
+print(subject[0])
+print(subject[-1])
+subject.insert(1,"Power BI")
+print(subject)
+subject.remove("Excel")
+print(subject)
+new_list = subject.copy()
+new_list.sort()
+print(new_list)
+print("Excel" in subject)
